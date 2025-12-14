@@ -1,0 +1,29 @@
+.post-detail-container {
+  min-height: calc(100vh - 60px);
+  background-color: #fafafa;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.post-detail-wrapper {
+  width: 100%;
+  max-width: 614px;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0081d9;
+}
